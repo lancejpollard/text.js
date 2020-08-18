@@ -1,0 +1,23 @@
+{
+  "name": "@lancejpollard/text.js",
+  "version": "0.1.0",
+  "bin": {
+    "text": "./bin/cli.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "files": [
+    "bin/cli.js",
+    "lib/index.js",
+    "lib/framework/tools.js",
+    "lib/language/hebrew/hebrew/ula.js",
+    "lib/language/chinese/pinyin/ula.js",
+    "lib/language/old-norse/norse/ula.js",
+    "lib/language/gothic/gothic/ula.js"
+  ]
+}
